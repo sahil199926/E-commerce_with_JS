@@ -1,0 +1,77 @@
+/* todo Container-fluid css */
+.container-fluid{
+    width: 83%;
+    margin-top: 8%;
+}
+
+/* todo Checkout css */
+#checkout {
+    display: flex;
+    column-gap: 3%;
+}
+
+/* todo checkout first div css */
+#first-div{
+    display: grid;
+    width: 48%;
+    row-gap: 3%;
+}
+
+/* todo Checkout second div css */
+#second-div{
+    height: 251px;
+    width: 49%;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+/* todo Second div h3 css */
+#second-div h3{
+    margin-left: 2%;
+}
+
+/* todo second div h4 id=amount css */
+#amount{
+    margin-left: 2%;
+}
+
+/* todo second div button css */
+.place-order{
+    margin-top: 11%;
+    width: 29%;
+    margin-left: 3%;
+    height: 26%;
+    background-color: teal;
+    color: white;
+    font-size: 139%;
+    border: none;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+/* todo cart.js css */
+.icon{
+    cursor: pointer;
+    box-shadow: 0 2px 2px #ccc;
+    width: 7%;
+    height: 7%;
+    border-radius: 19px;
+    text-align: center;
+}
+.icon:hover{
+    background-color: rgba(92, 160, 223, 0.452);
+}
+
+.icon:active{
+    border: 2px solid black;
+}
+
+#footer-img{
+    width: 10%;
+    position: fixed;
+    margin-top: -29%;
+    margin-right: -87%;
+}
+
+#footer-img img{
+    width: 100%;
+    position: sticky;
+}

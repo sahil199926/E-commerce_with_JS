@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* id = navbar css */
+#navbar{
+    font-size: 132%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1%;
+    background-color: #fff;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+/* navbar => first side css */
+.first-side{
+    display: flex;
+    column-gap: 11%;
+    font-size: 80%;
+    align-items: center;
+    margin-left: 9%;
+}
+
+#shop{
+    font-size: 210%;
+}
+
+/* navbar => third side css */
+.third-side{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-side i{
+    margin-top: 2%;
+    cursor: pointer;
+    font-size: 163%;
+}
+
+.third-side p{
+    margin-top: -131%;
+    margin-left: 63%;
+    width: 21px;
+    height: 21px;
+    border-radius: 10.5px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.third-img{
+    margin-left: -30%;
+    width: 15%;
+    margin-top: -2%;
+}
+
+.third-img img{
+    width: 100%;
+    border-radius: 51%;  
+}
+
+/* footer css */
+#main-footer{
+    display: flex;
+    border: 2px solid black;
+    color: #fff;
+    background-color: #1c1b1e;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+#main-footer h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#main-footer p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#footer-img{
+    width: 10%;
+    position: fixed;
+    margin-top: -74%;
+    margin-right: -87%;
+}
+
+#footer-img img{
+    width: 100%;
+    position: sticky;
+}
